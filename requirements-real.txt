@@ -1,0 +1,3 @@
+# Dependencies for importing real image datasets.
+datasets==5.0.1
+Pillow==12.3.0

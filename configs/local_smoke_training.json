@@ -1,0 +1,26 @@
+{
+  "model": "google/siglip-base-patch16-224",
+  "paths": {
+    "dataset_dir": "data/real/chartqa_smoke",
+    "index_dir": "indexes/siglip_chartqa_smoke",
+    "feature_dir": "features/siglip_chartqa_smoke",
+    "baseline_output_dir": "outputs/siglip_chartqa_smoke",
+    "output_dir": "outputs/server_training_smoke"
+  },
+  "runtime": {
+    "device": "auto",
+    "require_cuda": true,
+    "embedding_batch_size": 4
+  },
+  "training": {
+    "rank": 4,
+    "epochs": 3,
+    "patience": 3,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "temperature": 0.07,
+    "hard_negatives": 0,
+    "seed": 42,
+    "train_towers": "shared"
+  }
+}

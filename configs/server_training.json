@@ -1,0 +1,26 @@
+{
+  "model": "google/siglip-base-patch16-224",
+  "paths": {
+    "dataset_dir": "data/real/chartqa_medium",
+    "index_dir": "indexes/siglip_chartqa_medium",
+    "feature_dir": "features/siglip_chartqa_medium",
+    "baseline_output_dir": "outputs/siglip_chartqa_medium",
+    "output_dir": "outputs/server_training"
+  },
+  "runtime": {
+    "device": "auto",
+    "require_cuda": true,
+    "embedding_batch_size": 32
+  },
+  "training": {
+    "rank": 8,
+    "epochs": 500,
+    "patience": 150,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "temperature": 0.07,
+    "hard_negatives": 0,
+    "seed": 42,
+    "train_towers": "shared"
+  }
+}

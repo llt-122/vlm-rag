@@ -1,0 +1,4 @@
+# Install the CUDA-enabled PyTorch build matching the rented server first.
+-r requirements-real.txt
+-r requirements-models.txt
+pytest>=8,<10

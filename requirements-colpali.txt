@@ -1,0 +1,2 @@
+# ColPali-family visual retrieval baseline.
+colpali-engine==0.3.16

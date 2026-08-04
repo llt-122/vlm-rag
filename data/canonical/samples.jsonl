@@ -1,0 +1,24 @@
+{"query_id": "q001", "query": "采购合同的服务期限是什么？", "answers": ["2026-01-01 至 2026-12-31"], "evidence_page_ids": ["page_001"], "doc_type": "contract", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q002", "query": "采购合同首付款比例是多少？", "answers": ["30%"], "evidence_page_ids": ["page_001"], "doc_type": "contract", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q003", "query": "采购合同的验收周期是几天？", "answers": ["15天"], "evidence_page_ids": ["page_007"], "doc_type": "contract", "split": "dev", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q004", "query": "框架协议的违约金比例是多少？", "answers": ["5%"], "evidence_page_ids": ["page_013"], "doc_type": "contract", "split": "test", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q005", "query": "季度经营报表里 Q3 收入是多少？", "answers": ["1760万"], "evidence_page_ids": ["page_002"], "doc_type": "report", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q006", "query": "季度经营报表毛利率是多少？", "answers": ["38%"], "evidence_page_ids": ["page_002"], "doc_type": "report", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q007", "query": "现金流报表的经营现金流是多少？", "answers": ["860万"], "evidence_page_ids": ["page_008"], "doc_type": "report", "split": "dev", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q008", "query": "库存周转报表中周转天数是多少？", "answers": ["43天"], "evidence_page_ids": ["page_014"], "doc_type": "report", "split": "test", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q009", "query": "销售复盘中哪个区域排名第一？", "answers": ["华东"], "evidence_page_ids": ["page_003"], "doc_type": "ppt", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q010", "query": "销售复盘中华东销售额是多少？", "answers": ["42"], "evidence_page_ids": ["page_003"], "doc_type": "ppt", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q011", "query": "新品发布页的核心卖点是什么？", "answers": ["低功耗、高稳定、边缘推理"], "evidence_page_ids": ["page_009"], "doc_type": "ppt", "split": "dev", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q012", "query": "渠道复盘的重点渠道是什么？", "answers": ["直营"], "evidence_page_ids": ["page_015"], "doc_type": "ppt", "split": "test", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q013", "query": "李雷这次差旅报销合计多少钱？", "answers": ["4100"], "evidence_page_ids": ["page_004"], "doc_type": "invoice", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q014", "query": "李雷报销单的申请人是谁？", "answers": ["李雷"], "evidence_page_ids": ["page_004"], "doc_type": "invoice", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q015", "query": "培训费用单的审批状态是什么？", "answers": ["待复核"], "evidence_page_ids": ["page_010"], "doc_type": "invoice", "split": "dev", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q016", "query": "采购付款单的付款金额是多少？", "answers": ["128000"], "evidence_page_ids": ["page_016"], "doc_type": "invoice", "split": "test", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q017", "query": "设备 E17 告警代表什么？", "answers": ["温度过高"], "evidence_page_ids": ["page_005"], "doc_type": "manual", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q018", "query": "设备 E17 告警如何处理？", "answers": ["停机、检查风扇、清理滤网、重启"], "evidence_page_ids": ["page_005"], "doc_type": "manual", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q019", "query": "网络故障 N09 的处理步骤是什么？", "answers": ["检查网线、重置网关、查看交换机端口"], "evidence_page_ids": ["page_011"], "doc_type": "manual", "split": "dev", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q020", "query": "电池告警 B03 的含义是什么？", "answers": ["电池电压偏低"], "evidence_page_ids": ["page_017"], "doc_type": "manual", "split": "test", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q021", "query": "工龄 5 到 10 年年假是多少天？", "answers": ["10天"], "evidence_page_ids": ["page_006"], "doc_type": "policy", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q022", "query": "工龄 10 年以上年假是多少天？", "answers": ["15天"], "evidence_page_ids": ["page_006"], "doc_type": "policy", "split": "train", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q023", "query": "加班调休的有效期是多久？", "answers": ["90天"], "evidence_page_ids": ["page_012"], "doc_type": "policy", "split": "dev", "metadata": {"source_dataset": "legacy_demo"}}
+{"query_id": "q024", "query": "远程办公每周最多几天？", "answers": ["每周2天"], "evidence_page_ids": ["page_018"], "doc_type": "policy", "split": "test", "metadata": {"source_dataset": "legacy_demo"}}

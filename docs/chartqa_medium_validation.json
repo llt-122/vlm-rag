@@ -1,0 +1,71 @@
+{
+  "status": "ready",
+  "dataset_dir": "data/real/chartqa_medium",
+  "page_count": 386,
+  "query_count": 800,
+  "split_query_counts": {
+    "dev": 100,
+    "test": 100,
+    "train": 600
+  },
+  "split_page_counts": {
+    "dev": 49,
+    "test": 50,
+    "train": 287
+  },
+  "split_document_counts": {
+    "dev": 49,
+    "test": 50,
+    "train": 287
+  },
+  "document_types": {
+    "chart": 386
+  },
+  "schema_warnings": [],
+  "missing_images": [],
+  "empty_images": [],
+  "document_leakage": [],
+  "duplicate_queries_across_splits": [
+    {
+      "query": "what does the blue line represent?",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "query": "what's the median value of red graph?",
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "query": "how many colors are used in the graph?",
+      "splits": [
+        "dev",
+        "test",
+        "train"
+      ]
+    },
+    {
+      "query": "is the value of no more then sum of yes and dk?",
+      "splits": [
+        "dev",
+        "train"
+      ]
+    },
+    {
+      "query": "what is the value of largest bar?",
+      "splits": [
+        "dev",
+        "test"
+      ]
+    }
+  ],
+  "fatal_errors": [],
+  "source_checksums": {
+    "pages.jsonl": "9f497d703fd9893d10d7c30518e34d5b50f8558c88d725dd68f55fad57b84cd0",
+    "samples.jsonl": "1e4466819830884c27dc91588e5a82bd1845224a83b1c982283cc9686072182a"
+  }
+}

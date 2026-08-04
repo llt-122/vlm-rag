@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "page_count": 18,
+  "sample_count": 24,
+  "splits": {
+    "dev": 6,
+    "test": 6,
+    "train": 12
+  },
+  "document_types": {
+    "contract": 3,
+    "invoice": 3,
+    "manual": 3,
+    "policy": 3,
+    "ppt": 3,
+    "report": 3
+  },
+  "warnings": []
+}

@@ -1,0 +1,2 @@
+# Install a CUDA-enabled PyTorch build first.
+colpali-engine==0.3.16

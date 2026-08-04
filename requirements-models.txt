@@ -1,0 +1,6 @@
+# Install a CUDA-enabled PyTorch build first: https://pytorch.org/get-started/locally/
+transformers==5.14.1
+sentence-transformers==5.6.1
+sentencepiece==0.2.2
+protobuf>=6.31.1
+Pillow>=12.2.0
