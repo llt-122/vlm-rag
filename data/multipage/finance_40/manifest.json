@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "page_count": 30,
+  "sample_count": 40,
+  "splits": {
+    "test": 40
+  },
+  "document_types": {
+    "financial_report": 30
+  },
+  "warnings": [],
+  "dataset_name": "Controlled Multi-page Financial QA 40",
+  "document_count": 10,
+  "pages_per_document": 3,
+  "all_questions_require_multiple_pages": true,
+  "provenance": "Programmatically generated controlled validation data; not real enterprise data."
+}

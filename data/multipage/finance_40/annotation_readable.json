@@ -1,0 +1,442 @@
+[
+  {
+    "query_id": "finance_01_aster_q1",
+    "document": "Aster Holdings three-page financial report",
+    "query": "How much did Aster Holdings' revenue increase from 2025 to 2026?",
+    "answer": "10",
+    "evidence_pages": [
+      "finance_01_aster_p1",
+      "finance_01_aster_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_01_aster_q2",
+    "document": "Aster Holdings three-page financial report",
+    "query": "How much did Aster Holdings' operating profit change from 2025 to 2026?",
+    "answer": "4",
+    "evidence_pages": [
+      "finance_01_aster_p1",
+      "finance_01_aster_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_01_aster_q3",
+    "document": "Aster Holdings three-page financial report",
+    "query": "How many employees did Aster Holdings add from 2025 to 2026?",
+    "answer": "21",
+    "evidence_pages": [
+      "finance_01_aster_p1",
+      "finance_01_aster_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_01_aster_q4",
+    "document": "Aster Holdings three-page financial report",
+    "query": "What is the sum of Aster Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "62",
+    "evidence_pages": [
+      "finance_01_aster_p2",
+      "finance_01_aster_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_02_beacon_q1",
+    "document": "Beacon Holdings three-page financial report",
+    "query": "How much did Beacon Holdings' revenue increase from 2025 to 2026?",
+    "answer": "12",
+    "evidence_pages": [
+      "finance_02_beacon_p1",
+      "finance_02_beacon_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_02_beacon_q2",
+    "document": "Beacon Holdings three-page financial report",
+    "query": "How much did Beacon Holdings' operating profit change from 2025 to 2026?",
+    "answer": "5",
+    "evidence_pages": [
+      "finance_02_beacon_p1",
+      "finance_02_beacon_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_02_beacon_q3",
+    "document": "Beacon Holdings three-page financial report",
+    "query": "How many employees did Beacon Holdings add from 2025 to 2026?",
+    "answer": "24",
+    "evidence_pages": [
+      "finance_02_beacon_p1",
+      "finance_02_beacon_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_02_beacon_q4",
+    "document": "Beacon Holdings three-page financial report",
+    "query": "What is the sum of Beacon Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "70",
+    "evidence_pages": [
+      "finance_02_beacon_p2",
+      "finance_02_beacon_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_03_cedar_q1",
+    "document": "Cedar Holdings three-page financial report",
+    "query": "How much did Cedar Holdings' revenue increase from 2025 to 2026?",
+    "answer": "14",
+    "evidence_pages": [
+      "finance_03_cedar_p1",
+      "finance_03_cedar_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_03_cedar_q2",
+    "document": "Cedar Holdings three-page financial report",
+    "query": "How much did Cedar Holdings' operating profit change from 2025 to 2026?",
+    "answer": "6",
+    "evidence_pages": [
+      "finance_03_cedar_p1",
+      "finance_03_cedar_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_03_cedar_q3",
+    "document": "Cedar Holdings three-page financial report",
+    "query": "How many employees did Cedar Holdings add from 2025 to 2026?",
+    "answer": "27",
+    "evidence_pages": [
+      "finance_03_cedar_p1",
+      "finance_03_cedar_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_03_cedar_q4",
+    "document": "Cedar Holdings three-page financial report",
+    "query": "What is the sum of Cedar Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "78",
+    "evidence_pages": [
+      "finance_03_cedar_p2",
+      "finance_03_cedar_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_04_delta_q1",
+    "document": "Delta Holdings three-page financial report",
+    "query": "How much did Delta Holdings' revenue increase from 2025 to 2026?",
+    "answer": "16",
+    "evidence_pages": [
+      "finance_04_delta_p1",
+      "finance_04_delta_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_04_delta_q2",
+    "document": "Delta Holdings three-page financial report",
+    "query": "How much did Delta Holdings' operating profit change from 2025 to 2026?",
+    "answer": "7",
+    "evidence_pages": [
+      "finance_04_delta_p1",
+      "finance_04_delta_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_04_delta_q3",
+    "document": "Delta Holdings three-page financial report",
+    "query": "How many employees did Delta Holdings add from 2025 to 2026?",
+    "answer": "30",
+    "evidence_pages": [
+      "finance_04_delta_p1",
+      "finance_04_delta_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_04_delta_q4",
+    "document": "Delta Holdings three-page financial report",
+    "query": "What is the sum of Delta Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "86",
+    "evidence_pages": [
+      "finance_04_delta_p2",
+      "finance_04_delta_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_05_evergreen_q1",
+    "document": "Evergreen Holdings three-page financial report",
+    "query": "How much did Evergreen Holdings' revenue increase from 2025 to 2026?",
+    "answer": "18",
+    "evidence_pages": [
+      "finance_05_evergreen_p1",
+      "finance_05_evergreen_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_05_evergreen_q2",
+    "document": "Evergreen Holdings three-page financial report",
+    "query": "How much did Evergreen Holdings' operating profit change from 2025 to 2026?",
+    "answer": "8",
+    "evidence_pages": [
+      "finance_05_evergreen_p1",
+      "finance_05_evergreen_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_05_evergreen_q3",
+    "document": "Evergreen Holdings three-page financial report",
+    "query": "How many employees did Evergreen Holdings add from 2025 to 2026?",
+    "answer": "33",
+    "evidence_pages": [
+      "finance_05_evergreen_p1",
+      "finance_05_evergreen_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_05_evergreen_q4",
+    "document": "Evergreen Holdings three-page financial report",
+    "query": "What is the sum of Evergreen Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "94",
+    "evidence_pages": [
+      "finance_05_evergreen_p2",
+      "finance_05_evergreen_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_06_falcon_q1",
+    "document": "Falcon Holdings three-page financial report",
+    "query": "How much did Falcon Holdings' revenue increase from 2025 to 2026?",
+    "answer": "20",
+    "evidence_pages": [
+      "finance_06_falcon_p1",
+      "finance_06_falcon_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_06_falcon_q2",
+    "document": "Falcon Holdings three-page financial report",
+    "query": "How much did Falcon Holdings' operating profit change from 2025 to 2026?",
+    "answer": "9",
+    "evidence_pages": [
+      "finance_06_falcon_p1",
+      "finance_06_falcon_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_06_falcon_q3",
+    "document": "Falcon Holdings three-page financial report",
+    "query": "How many employees did Falcon Holdings add from 2025 to 2026?",
+    "answer": "36",
+    "evidence_pages": [
+      "finance_06_falcon_p1",
+      "finance_06_falcon_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_06_falcon_q4",
+    "document": "Falcon Holdings three-page financial report",
+    "query": "What is the sum of Falcon Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "102",
+    "evidence_pages": [
+      "finance_06_falcon_p2",
+      "finance_06_falcon_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_07_granite_q1",
+    "document": "Granite Holdings three-page financial report",
+    "query": "How much did Granite Holdings' revenue increase from 2025 to 2026?",
+    "answer": "22",
+    "evidence_pages": [
+      "finance_07_granite_p1",
+      "finance_07_granite_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_07_granite_q2",
+    "document": "Granite Holdings three-page financial report",
+    "query": "How much did Granite Holdings' operating profit change from 2025 to 2026?",
+    "answer": "10",
+    "evidence_pages": [
+      "finance_07_granite_p1",
+      "finance_07_granite_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_07_granite_q3",
+    "document": "Granite Holdings three-page financial report",
+    "query": "How many employees did Granite Holdings add from 2025 to 2026?",
+    "answer": "39",
+    "evidence_pages": [
+      "finance_07_granite_p1",
+      "finance_07_granite_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_07_granite_q4",
+    "document": "Granite Holdings three-page financial report",
+    "query": "What is the sum of Granite Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "110",
+    "evidence_pages": [
+      "finance_07_granite_p2",
+      "finance_07_granite_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_08_harbor_q1",
+    "document": "Harbor Holdings three-page financial report",
+    "query": "How much did Harbor Holdings' revenue increase from 2025 to 2026?",
+    "answer": "24",
+    "evidence_pages": [
+      "finance_08_harbor_p1",
+      "finance_08_harbor_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_08_harbor_q2",
+    "document": "Harbor Holdings three-page financial report",
+    "query": "How much did Harbor Holdings' operating profit change from 2025 to 2026?",
+    "answer": "11",
+    "evidence_pages": [
+      "finance_08_harbor_p1",
+      "finance_08_harbor_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_08_harbor_q3",
+    "document": "Harbor Holdings three-page financial report",
+    "query": "How many employees did Harbor Holdings add from 2025 to 2026?",
+    "answer": "42",
+    "evidence_pages": [
+      "finance_08_harbor_p1",
+      "finance_08_harbor_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_08_harbor_q4",
+    "document": "Harbor Holdings three-page financial report",
+    "query": "What is the sum of Harbor Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "118",
+    "evidence_pages": [
+      "finance_08_harbor_p2",
+      "finance_08_harbor_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_09_indigo_q1",
+    "document": "Indigo Holdings three-page financial report",
+    "query": "How much did Indigo Holdings' revenue increase from 2025 to 2026?",
+    "answer": "26",
+    "evidence_pages": [
+      "finance_09_indigo_p1",
+      "finance_09_indigo_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_09_indigo_q2",
+    "document": "Indigo Holdings three-page financial report",
+    "query": "How much did Indigo Holdings' operating profit change from 2025 to 2026?",
+    "answer": "12",
+    "evidence_pages": [
+      "finance_09_indigo_p1",
+      "finance_09_indigo_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_09_indigo_q3",
+    "document": "Indigo Holdings three-page financial report",
+    "query": "How many employees did Indigo Holdings add from 2025 to 2026?",
+    "answer": "45",
+    "evidence_pages": [
+      "finance_09_indigo_p1",
+      "finance_09_indigo_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_09_indigo_q4",
+    "document": "Indigo Holdings three-page financial report",
+    "query": "What is the sum of Indigo Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "126",
+    "evidence_pages": [
+      "finance_09_indigo_p2",
+      "finance_09_indigo_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  },
+  {
+    "query_id": "finance_10_juniper_q1",
+    "document": "Juniper Holdings three-page financial report",
+    "query": "How much did Juniper Holdings' revenue increase from 2025 to 2026?",
+    "answer": "28",
+    "evidence_pages": [
+      "finance_10_juniper_p1",
+      "finance_10_juniper_p2"
+    ],
+    "derivation": "subtract page 1 revenue from page 2 revenue"
+  },
+  {
+    "query_id": "finance_10_juniper_q2",
+    "document": "Juniper Holdings three-page financial report",
+    "query": "How much did Juniper Holdings' operating profit change from 2025 to 2026?",
+    "answer": "13",
+    "evidence_pages": [
+      "finance_10_juniper_p1",
+      "finance_10_juniper_p2"
+    ],
+    "derivation": "compute revenue minus cost on pages 1 and 2, then compare"
+  },
+  {
+    "query_id": "finance_10_juniper_q3",
+    "document": "Juniper Holdings three-page financial report",
+    "query": "How many employees did Juniper Holdings add from 2025 to 2026?",
+    "answer": "48",
+    "evidence_pages": [
+      "finance_10_juniper_p1",
+      "finance_10_juniper_p2"
+    ],
+    "derivation": "subtract page 1 employee count from page 2 employee count"
+  },
+  {
+    "query_id": "finance_10_juniper_q4",
+    "document": "Juniper Holdings three-page financial report",
+    "query": "What is the sum of Juniper Holdings' 2026 operating profit and R&D expenditure?",
+    "answer": "134",
+    "evidence_pages": [
+      "finance_10_juniper_p2",
+      "finance_10_juniper_p3"
+    ],
+    "derivation": "compute page 2 operating profit and add page 3 R&D expenditure"
+  }
+]
